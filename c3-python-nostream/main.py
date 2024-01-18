@@ -20,7 +20,8 @@ if environment == "dev":
     app.add_middleware(
         CORSMiddleware,
         allow_origins=[
-            "https://pikto-voiceassistant-ui.vercel.app"
+            "https://pikto-voiceassistant-ui.vercel.app",
+            "*"
         ],
         allow_credentials=True,
         allow_methods=["*"],
