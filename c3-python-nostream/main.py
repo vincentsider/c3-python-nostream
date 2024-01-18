@@ -11,7 +11,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-environment = os.getenv("ENVIRONMENT", "prod")  # Default to 'development' if not set
+environment = os.getenv("ENVIRONMENT", "dev")  # Default to 'development' if not set
 
 
 if environment == "dev":
