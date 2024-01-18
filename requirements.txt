@@ -1,3 +1,2 @@
 elevenlabs
 openai
-dotenv
